@@ -3,10 +3,9 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView, Image, Pressable, Alert, ActivityIndicator} from 'react-native';
 
 export default function App() {
-
-
+  
   return (
-    <ScrollView style={styles.firstcontainer}>
+    <ScrollView style={styles.firstContainer}>
       <View style={styles.secondContainer}>
         <Text style={styles.firstText}>First text</Text>
         <Text style={styles.secondText}>Second text</Text>
